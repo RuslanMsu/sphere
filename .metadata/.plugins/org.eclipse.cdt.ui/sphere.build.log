@@ -1,1 +1,7 @@
-Info: Nothing to build for sphere
+02:34:39 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+
+02:34:40 Build Finished. 0 errors, 0 warnings. (took 598ms)
+

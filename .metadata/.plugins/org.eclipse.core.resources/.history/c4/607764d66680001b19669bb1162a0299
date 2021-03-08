@@ -1,8 +1,10 @@
+#include "2.cpp"
 #include <iostream>
 using namespace std;
 
 int main() {
 
+	fun();
 	int n;
 	cin >> n;
 	int t;
