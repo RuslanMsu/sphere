@@ -1,0 +1,61 @@
+#include <iostream>
+#include<vector>
+using namespace std;
+
+void swap(int a,int b){
+	int t;
+	t = b;
+	b = a;
+	a = t;
+}
+long long factorial(int n){
+	if(n == 1){
+		return 1;
+	}else{
+		return n*factorial(n-1);
+	}
+}
+
+void fun(int N, int m){
+	vector<int> a(N);
+	vector<int> b(N);
+	for(int i = 0; i < N ; i++){
+		a[i] = i + 1;
+	}
+	for(int i = 1; i < N; i++){
+		int count_in_group = factorial(N-i);
+		int group = (m + count_in_group - 1) / count_in_group;
+		int pos_in_group = m % count_in_group == 0 ? count_in_group :  m % count_in_group ;
+		cout << group << endl;
+		cout << N-i+1 << endl;
+		int pos_in_group_fs = group % (N-i+1) == 0 ? (N-i+1) :  group % (N-i+1) ;
+		//cout << group % (N-i+1) << endl;
+		cout << pos_in_group_fs << endl;
+		int index_swap = (i-1)+ pos_in_group_fs-1;
+		cout << index_swap<< endl;
+		cout << i-1<< endl<< endl;
+		b[i-1] = a[index_swap];
+		a.erase(a.begin()+index_swap);
+		for(int i = 0; i < N; i++){
+				cout << a[i];
+			}
+		//if(M[i-1]!=SO[index_swap]){
+		//	swap(M[i-1],SO[index_swap]);
+		//}
+	}
+	for(int i = 0; i < N; i++){
+		cout << b[i];
+	}
+	cout << endl<<endl;
+}
+
+int main() {
+	int N,m;
+	for(int i = 1; i <= factorial(3); i++){
+		//cout << i<< endl;
+		//fun(3,i);
+	}
+	//cin >> N >> m;
+	fun(3,5);
+
+}

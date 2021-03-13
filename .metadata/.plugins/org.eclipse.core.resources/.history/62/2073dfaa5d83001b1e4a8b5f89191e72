@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+void swap(int a,int b){
+	int t;
+	t = b;
+	b = a;
+	a = t;
+}
+long long factorial(int n){
+	if(n == 1){
+		return 1;
+	}else{
+		return n*factorial(n-1);
+	}
+}
+
+void fun(int N, int m){
+	size_t M[N];
+	for(int i = 0; i < N ; i++){
+		M[i] = i+1;
+	}
+	for(int i = 1; i < N; i++){
+		int count_in_group = factorial(N-i);
+		int group = (m + count_in_group - 1) / count_in_group;
+		int pos_in_group = m % count_in_group == 0 ? count_in_group :  m % count_in_group ;
+		cout << group << endl;
+		int pos_in_group_fs = group % count_in_group == 0 ? count_in_group :  group % count_in_group ;
+		cout << pos_in_group << endl;
+		int index_swap = (i-1)+ pos_in_group_fs-1;
+		cout << index_swap<< endl << endl;
+		cout << i-1;
+		swap(M[i-1],M[index_swap]);
+	}
+	for(int i = 0; i < N; i++){
+		cout << M[i];
+	}
+
+}
+
+int main() {
+	int N,m;
+	cin >> N >> m;
+	fun(N,m);
+
+}
