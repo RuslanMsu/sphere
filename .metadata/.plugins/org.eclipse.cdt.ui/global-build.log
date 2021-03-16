@@ -85904,3 +85904,1347 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp"
   for(int i = 0; i < b.size(); i++){
                  ~~^~~~~~~~~~
 g++ -o sphere.exe "src\\sphere.o" 
+01:48:17 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:1:9: fatal error: iostrem: No such file or directory
+ #include<iostrem>
+         ^~~~~~~~~
+compilation terminated.
+01:48:26 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:2:9: fatal error: stdio: No such file or directory
+ #include<stdio>
+         ^~~~~~~
+compilation terminated.
+01:48:42 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:2:9: fatal error: stdlib: No such file or directory
+ #include<stdlib>
+         ^~~~~~~~
+compilation terminated.
+01:48:59 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:53:08 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:11:7: warning: unused variable 'm1' [-Wunused-variable]
+   int m1;
+       ^~
+g++ -o sphere.exe "src\\sphere.o" 
+01:53:45 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:9: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'int' [-Wformat=]
+   scanf("%d%d", &h1,m1);
+         ^~~~~~      ~~
+..\src\sphere.cpp:12:8: warning: 'm1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   scanf("%d%d", &h1,m1);
+   ~~~~~^~~~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+01:55:41 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:9: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'int' [-Wformat=]
+   scanf("%d %d", &h1,m1);
+         ^~~~~~~      ~~
+..\src\sphere.cpp:12:8: warning: 'm1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   scanf("%d %d", &h1,m1);
+   ~~~~~^~~~~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:58:37 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:9: warning: conversion lacks type at end of format [-Wformat=]
+   scanf("%d%*%d", &h1,m1);
+         ^~~~~~~~
+..\src\sphere.cpp:12:9: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'int' [-Wformat=]
+..\src\sphere.cpp:12:8: warning: 'm1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   scanf("%d%*%d", &h1,m1);
+   ~~~~~^~~~~~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+01:58:51 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:9: warning: conversion lacks type at end of format [-Wformat=]
+   scanf("%d%*%d", &h1,&m1);
+         ^~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+01:59:07 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+01:59:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+02:01:01 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+02:01:33 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+02:01:44 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+02:04:38 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+02:08:24 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+02:16:28 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : q){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+02:19:13 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:28:27: error: 'max' cannot be used as a function
+    max = max(max,st.size());
+                           ^
+02:19:38 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:28:29: error: no matching function for call to 'max(int&, std::stack<int>::size_type)'
+    maxi = max(maxi,st.size());
+                             ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:219:5: note: candidate: 'template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)'
+     max(const _Tp& __a, const _Tp& __b)
+     ^~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:219:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:28:29: note:   deduced conflicting types for parameter 'const _Tp' ('int' and 'std::stack<int>::size_type' {aka 'long long unsigned int'})
+    maxi = max(maxi,st.size());
+                             ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:265:5: note: candidate: 'template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)'
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:265:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:28:29: note:   deduced conflicting types for parameter 'const _Tp' ('int' and 'std::stack<int>::size_type' {aka 'long long unsigned int'})
+    maxi = max(maxi,st.size());
+                             ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:62,
+                 from ..\src\sphere.cpp:4:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3462:5: note: candidate: 'template<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)'
+     max(initializer_list<_Tp> __l)
+     ^~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3462:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:28:29: note:   mismatched types 'std::initializer_list<_Tp>' and 'int'
+    maxi = max(maxi,st.size());
+                             ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:62,
+                 from ..\src\sphere.cpp:4:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3468:5: note: candidate: 'template<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)'
+     max(initializer_list<_Tp> __l, _Compare __comp)
+     ^~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3468:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:28:29: note:   mismatched types 'std::initializer_list<_Tp>' and 'int'
+    maxi = max(maxi,st.size());
+                             ^
+..\src\sphere.cpp:37:7: error: no match for 'operator<<' (operand types are 'std::ostream' {aka 'std::basic_ostream<char>'} and '<unresolved overloaded function type>')
+  cout << max;
+  ~~~~~^~~~~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(bool __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(double __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(float __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long double __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(const void* __p)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6284:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6284:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   couldn't deduce template parameter '_Alloc'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:46,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:217:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:217:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:497:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:497:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:502:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:508:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:514:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'signed char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:519:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'unsigned char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:539:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:539:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:556:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:569:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const signed char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:574:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:682:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:682:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   couldn't deduce template parameter '_Tp'
+  cout << max;
+          ^~~
+02:20:42 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:7: error: no match for 'operator<<' (operand types are 'std::ostream' {aka 'std::basic_ostream<char>'} and '<unresolved overloaded function type>')
+  cout << max;
+  ~~~~~^~~~~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(bool __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(double __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(float __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long double __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(const void* __p)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6284:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6284:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   couldn't deduce template parameter '_Alloc'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:46,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:217:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:217:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:497:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:497:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:502:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:508:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:514:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'signed char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:519:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'unsigned char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:539:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:539:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:556:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:569:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const signed char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:574:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:682:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:682:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   couldn't deduce template parameter '_Tp'
+  cout << max;
+          ^~~
+02:20:44 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:7: error: no match for 'operator<<' (operand types are 'std::ostream' {aka 'std::basic_ostream<char>'} and '<unresolved overloaded function type>')
+  cout << max;
+  ~~~~~^~~~~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(bool __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(double __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(float __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long double __f)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(const void* __p)
+       ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6284:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6284:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   couldn't deduce template parameter '_Alloc'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:46,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:217:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:217:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:497:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:497:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:502:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:508:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:514:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'signed char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:519:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'unsigned char'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:539:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:539:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:693,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:556:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:569:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const signed char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:574:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   cannot convert 'std::max' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+  cout << max;
+          ^~~
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:682:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:682:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:37:10: note:   couldn't deduce template parameter '_Tp'
+  cout << max;
+          ^~~
+02:20:55 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:42:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : q){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+02:22:37 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : q){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+02:25:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:44:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : q){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+02:27:04 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+12:52:25 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+13:02:19 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+13:05:57 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : left){
+           ^
+..\src\sphere.cpp:34:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : right){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+13:20:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:29:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first > right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+..\src\sphere.cpp:38:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : left){
+           ^
+..\src\sphere.cpp:42:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : right){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+13:21:07 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:29:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first > right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+13:22:31 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:29:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first > right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+13:23:54 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first > right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+13:24:08 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first > right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+13:25:05 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+13:37:33 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+13:38:48 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+13:43:34 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+13:55:01 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:30:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+19:04:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+19:05:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+19:24:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+19:25:48 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+19:31:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+19:37:13 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:24:1: error: expected unqualified-id before numeric constant
+ 3
+ ^
+19:37:19 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+19:38:03 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+19:40:03 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+20:01:11 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:05:31 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:13:39 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'void fun()':
+..\src\sphere.cpp:14:6: warning: unused variable 'min_e' [-Wunused-variable]
+  int min_e = 1;
+      ^~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+22:29:30 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:21:9: warning: variable 'start' set but not used [-Wunused-but-set-variable]
+   point start;
+         ^~~~~
+..\src\sphere.cpp:24:9: warning: variable 'end' set but not used [-Wunused-but-set-variable]
+   point end;
+         ^~~
+..\src\sphere.cpp:29:39: error: a function-definition is not allowed here before '{' token
+  bool operator< (point l, point right){
+                                       ^
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+                 ~~^~~~~~~~~~~~~
+..\src\sphere.cpp:39:6: error: 'is_cross' was not declared in this scope
+   if(is_cross(left[i].second,right[i].second)){
+      ^~~~~~~~
+..\src\sphere.cpp:39:6: note: suggested alternative: 'count_cross'
+   if(is_cross(left[i].second,right[i].second)){
+      ^~~~~~~~
+      count_cross
+22:34:44 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:01:09 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:52:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : m){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+23:07:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:07:30 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+23:08:47 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:52:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : m){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+23:08:55 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+23:27:59 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:37:44 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:42:07 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+23:57:18 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+00:04:48 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:05:55 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:06:51 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:14:12 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+00:17:45 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:19:43 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:47:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   }else if(m[i+1].time == m[i].time && i != m.size() -1 ){
+                                        ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+00:21:41 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:47:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   }else if(m[i+1].time == m[i].time && i != m.size() -1 ){
+                                        ~~^~~~~~~~~~~~~~
+..\src\sphere.cpp:58:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : m){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+00:23:49 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:47:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   }else if(m[i+1].time == m[i].time && i != m.size() -1 ){
+                                        ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:24:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:47:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   }else if(m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1 ){
+                                        ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:27:39 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:44:57: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   if(m[i].status == 0 || (m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1) ){
+                                                       ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:29:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:32:23 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:44:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:54:37: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   if((m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1)){
+                                   ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:33:01 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:44:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:55:37: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   if((m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1)){
+                                   ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:41:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:44:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:50:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   }else if(m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1){
+                                        ~~^~~~~~~~~~~~~~
+..\src\sphere.cpp:59:37: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   if((m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1)){
+                                   ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:44:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:44:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:50:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   }else if(m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1){
+                                        ~~^~~~~~~~~~~~~~
+..\src\sphere.cpp:59:37: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   if((m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1)){
+                                   ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:44:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:44:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:50:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   }else if(m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1){
+                                        ~~^~~~~~~~~~~~~~
+..\src\sphere.cpp:60:37: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   if((m[i+1].time == m[i].time && i != m.size() -1 && m[i].status ==1)){
+                                   ~~^~~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:49:36 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+00:54:47 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+00:55:11 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:62:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : m){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+00:56:08 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:56:40 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:56:51 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+00:58:41 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:58:54 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+01:02:23 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+01:03:27 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<point>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < m.size();i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:62:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : m){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere

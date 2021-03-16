@@ -1,0 +1,47 @@
+#include<iostream>
+#include<stack>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+int main(){
+	int n;
+	cin >> n;
+	vector<pair<int,int>>q(n);
+	for(int i = 0; i < n; i++){
+		int h1,h2,m1,m2;
+		scanf("%d:%d %d:%d", &h1,&m1,&h2,&m2);
+		q[i].first = h1*60 + m1;
+		q[i].second = h2*60 + m2;
+	}
+	sort(q.begin(), q.end());
+
+	stack<int> st;
+	stack<int> fn;
+	st.push(q[0].first);
+	fn.push(q[0].second);
+	int maxi = 1;
+	for(int i = 1; i < n; i++){
+		if(q[i].first < fn.top()){
+			maxi = max(maxi ,(int)st.size());
+			st.push(q[i].first);
+			fn.push(q[i].second);
+
+
+		}else{
+			st.pop();
+			fn.pop();
+			st.push(q[i].first);
+			fn.push(q[i].second);
+		}
+	}
+	cout << maxi;
+
+
+
+
+	for(auto i : q){
+		//cout << i.first << " "<< i.second << endl;
+	}
+
+}

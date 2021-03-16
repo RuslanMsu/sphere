@@ -1,11 +1,1 @@
-20:27:38 **** Incremental Build of configuration Debug for project sphere ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
-..\src\sphere.cpp: In function 'void fun(int, long long int)':
-..\src\sphere.cpp:44:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
-  for(int i = 0; i < b.size(); i++){
-                 ~~^~~~~~~~~~
-g++ -o sphere.exe "src\\sphere.o" 
-
-20:27:39 Build Finished. 0 errors, 1 warnings. (took 819ms)
-
+Info: Nothing to build for sphere

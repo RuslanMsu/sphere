@@ -1,0 +1,93 @@
+#include<iostream>
+#include<stack>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+bool is_cross(int end_left, int begin_right){
+	return (end_left - begin_right) > 0;
+}
+
+void fun(){
+	int n;
+	cin >> n;
+	int min_e = 1;
+	int t = 0;
+	for(int i = 0; i < n; i++){
+		int c;
+		cin>>c;
+		t = t + c +1;
+		if(c!= min_e){
+			min_e = min(t,min_e);
+		}
+		min_e = t+1;
+	}
+	cout << min_e;
+}
+
+
+
+int main(){
+	fun();
+	/*int n;
+	cin >> n;
+	vector<pair<int,int>>left(n);
+	vector<pair<int,int>>right(n);
+	for(int i = 0; i < n; i++){
+		int h1,h2,m1,m2;
+		scanf("%d:%d %d:%d", &h1,&m1,&h2,&m2);
+		left[i].first = h1*60 + m1;
+		left[i].second = h2*60 + m2;
+		right[i].first = h2*60 + m2;
+		right[i].second = h1*60 + m1;
+	}
+
+	sort(left.begin(), left.end());
+	sort(right.rbegin(), right.rend());
+	int count_cross = 0;
+	//cout << is_cross(1241,522);
+
+	for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+		if(is_cross(left[i].second,right[i].second)){
+			count_cross++;
+			cout << count_cross << endl;
+		}
+	}
+	cout << count_cross<< endl;
+
+
+	//cout << is_cross(6,8);
+	for(auto i : left){
+		cout << i.first << " "<< i.second << endl;
+	}
+	cout << endl<<endl;
+	for(auto i : right){
+		cout << i.first << " "<< i.second << endl;
+	}
+*/
+}
+
+/*
+6
+01:00 04:00
+02:00 09:00
+03:00 07:00
+05:00 08:00
+06:00 10:00
+15:00 16:00
+*/
+
+/*
+4
+01:00 04:00
+01:00 04:00
+01:00 04:00
+01:00 04:00
+*/
+
+/*
+2
+01:00 04:00
+02:00 03:00
+
+*/

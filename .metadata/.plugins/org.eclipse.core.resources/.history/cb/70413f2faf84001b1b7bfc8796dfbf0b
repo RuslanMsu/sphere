@@ -1,0 +1,46 @@
+#include<iostream>
+#include<stack>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+bool is_cross(int end_left, int begin_right){
+	return (end_left - begin_right) > 0;
+}
+
+int main(){
+	int n;
+	cin >> n;
+	vector<pair<int,int>>left(n);
+	vector<pair<int,int>>right(n);
+	for(int i = 0; i < n; i++){
+		int h1,h2,m1,m2;
+		scanf("%d:%d %d:%d", &h1,&m1,&h2,&m2);
+		left[i].first = h1*60 + m1;
+		left[i].second = h2*60 + m2;
+		right[i].first = h2*60 + m2;
+		right[i].second = h1*60 + m1;
+	}
+
+	sort(left.begin(), left.end());
+	sort(right.rbegin(), right.rend());
+	int count_cross = 0;
+
+	for(int i = 0; i < left.size() && left[i].first > right[i].first ; i++){
+		if(is_cross(left[i].second,right[i].first)){
+			count_cross++;
+		}
+	}
+	cout << count_cross;
+
+
+	//cout << is_cross(6,8);
+	for(auto i : left){
+		cout << i.first << " "<< i.second << endl;
+	}
+	cout << endl<<endl;
+	for(auto i : right){
+		cout << i.first << " "<< i.second << endl;
+	}
+
+}

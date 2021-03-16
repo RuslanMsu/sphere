@@ -1,0 +1,81 @@
+#include<iostream>
+#include<stack>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+struct point{
+	int time;
+	int status; // 0 - если начало интервала. 1 - конец
+};
+
+
+int main(){
+	int n;
+	cin >> n;
+	vector<pair<int,int>>left(n);
+	vector<pair<int,int>>right(n);
+	for(int i = 0; i < n; i++){
+		int h1,h2,m1,m2;
+		scanf("%d:%d %d:%d", &h1,&m1,&h2,&m2);
+		point start;
+		start.time = h1*60 + m1;
+		start.status = 0;
+		point end;
+		end.time = h2*60 + m2;
+		end.status = 1;
+	}
+
+	bool operator< (point l, point right){
+
+	}
+
+	sort(left.begin(), left.end());
+	sort(right.rbegin(), right.rend());
+	int count_cross = 0;
+	//cout << is_cross(1241,522);
+
+	for(int i = 0; i < left.size() && left[i].first < right[i].first ; i++){
+		if(is_cross(left[i].second,right[i].second)){
+			count_cross++;
+			cout << count_cross << endl;
+		}
+	}
+	cout << count_cross<< endl;
+
+
+	//cout << is_cross(6,8);
+	for(auto i : left){
+		cout << i.first << " "<< i.second << endl;
+	}
+	cout << endl<<endl;
+	for(auto i : right){
+		cout << i.first << " "<< i.second << endl;
+	}
+
+}
+
+/*
+6
+01:00 04:00
+02:00 09:00
+03:00 07:00
+05:00 08:00
+06:00 10:00
+15:00 16:00
+*/
+
+/*
+4
+01:00 04:00
+01:00 04:00
+01:00 04:00
+01:00 04:00
+*/
+
+/*
+2
+01:00 04:00
+02:00 03:00
+
+*/
