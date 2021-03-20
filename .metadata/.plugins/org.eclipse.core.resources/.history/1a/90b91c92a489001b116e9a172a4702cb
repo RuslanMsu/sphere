@@ -1,0 +1,20 @@
+#include<iostream>
+#include<vector>
+#include <algorithm>
+using namespace std;
+int main(){
+	int n;
+	cin >> n;
+	vector<pair<int,int>> m;
+	for( int i = 0; i < n; i++) {
+		pair<int,int> p;
+		cin >> p.second >> p.first;
+		m.push_back(p);
+	}
+	sort(m.begin(), m.end());
+	for(auto i : m){
+		i.first << " " << i.second << endl;
+	}
+
+
+}

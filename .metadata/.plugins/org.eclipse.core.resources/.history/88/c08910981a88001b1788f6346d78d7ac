@@ -1,0 +1,49 @@
+#include<cassert>
+#include<stdio.h>
+
+class myset{
+public:
+	myset(size_t size) {   //Конструктор
+		body = new bool[size];
+		setsize = size;
+		for (size_t i = 0; i < size; i++) {
+			body[i] = false;
+		}
+		printf("size user: %zu bytes\n", size*sizeof(bool));
+
+
+	}
+	~myset() {  //Деструктор
+
+	}
+
+	void insert(size_t elem) {
+		if(elem < 0 || elem >= setsize) return;
+		body[elem] = true;
+	}
+
+	void erase(size_t elem) {
+		if(elem < 0 || elem >= setsize) return;
+		body[elem] = false;
+	}
+
+
+	bool in(size_t elem) {
+		return (elem < 0 || elem >= setsize) ? false : body[elem];
+		}
+private:
+	bool *body;
+	size_t setsize;
+
+};
+
+int main(){
+	myset s1(1000); // create
+	for (int i = 0; i < 10; i++) {
+		s1.insert(i*i);
+	}
+	//assert(s1.in(64));
+	s1.erase(64);
+	assert(!s1.in(64));
+
+}

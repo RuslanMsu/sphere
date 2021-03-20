@@ -87248,3 +87248,1776 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp"
            ^
 g++ -o sphere.exe "src\\sphere.o" 
 Info: Nothing to build for sphere
+01:30:55 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\1.o" "..\\src\\1.cpp" 
+g++.exe: error: ..\src\1.cpp: No such file or directory
+g++.exe: fatal error: no input files
+compilation terminated.
+17:21:59 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int rec_v(int, int, int&)':
+..\src\sphere.cpp:29:39: error: cannot bind non-const lvalue reference of type 'int&' to an rvalue of type 'int'
+   return rec_v(n-1, (index-1)%len, len/2);
+                                    ~~~^~
+..\src\sphere.cpp:20:5: note:   initializing argument 3 of 'int rec_v(int, int, int&)'
+ int rec_v(int n, int index, int &len){
+     ^~~~~
+17:36:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+17:37:15 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:32:6: warning: unused variable 'N' [-Wunused-variable]
+  int N,M;
+      ^
+..\src\sphere.cpp:32:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+17:57:33 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:44:19: error: too few arguments to function 'int rec_v(int, int, std::vector<int>)'
+  cout << rec_v(4,2);
+                   ^
+..\src\sphere.cpp:21:5: note: declared here
+ int rec_v(int n, int index, vector<int> len){
+     ^~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M;
+        ^
+17:58:09 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:44:21: error: stray '\' in program
+  cout << rec_v(4,2, \len);
+                     ^
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M;
+        ^
+17:58:16 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M;
+        ^
+..\src\sphere.cpp:40:19: warning: 'N' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  for(int i = 1; i < N;i++){
+                 ~~^~~
+g++ -o sphere.exe "src\\sphere.o" 
+17:59:04 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M;
+        ^
+..\src\sphere.cpp:40:19: warning: 'N' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  for(int i = 1; i < N;i++){
+                 ~~^~~
+g++ -o sphere.exe "src\\sphere.o" 
+17:59:12 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M;
+        ^
+..\src\sphere.cpp:40:19: warning: 'N' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  for(int i = 1; i < N;i++){
+                 ~~^~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+20:13:21 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M = 4;
+        ^
+..\src\sphere.cpp:38:19: warning: 'N' is used uninitialized in this function [-Wuninitialized]
+  vector<int> len(N);
+                   ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:13:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:8: warning: unused variable 'M' [-Wunused-variable]
+  int N,M = 4;
+        ^
+..\src\sphere.cpp:38:10: warning: 'N' is used uninitialized in this function [-Wuninitialized]
+  cout << N;
+          ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:14:12 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:14:24 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:17:42 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:18:08 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:18:18 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:18:41 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:19:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:19:22 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:20:19 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'std::__cxx11::string rec(int)':
+..\src\sphere.cpp:13:3: error: 'reverse' was not declared in this scope
+   reverse(r.begin(), r.end());
+   ^~~~~~~
+20:20:28 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:20:45 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:21:04 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:21:56 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:22:16 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:22:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:24:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:24:30 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:26:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:26:19 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:26:51 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+20:29:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:37:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+20:30:00 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:30:59 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:31:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+20:31:14 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:31:25 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:31:34 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:35:21 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:37:49 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:38:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:35:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:35:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:39:13 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:42:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:42:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:43:00 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+..\src\sphere.cpp:42:25: error: expected '}' at end of input
+  cout << rec_v(4,15,len);
+                         ^
+..\src\sphere.cpp:35:12: note: to match this '{'
+ int main() {
+            ^
+20:43:38 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:43:52 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:00 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:12 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:21 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:27 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:33 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:39 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:45 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:44:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:45:04 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:45:11 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:39:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:36:6: warning: unused variable 'n' [-Wunused-variable]
+  int n,m;
+      ^
+..\src\sphere.cpp:36:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+20:46:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:40:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+20:48:21 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:40:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+20:50:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:52:1: warning: integer constant is too large for its type
+ 5432111122111123321111221111234
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\sphere.cpp:53:1: warning: integer constant is too large for its type
+ 5432111122111123321111221111234
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+..\src\sphere.cpp: At global scope:
+..\src\sphere.cpp:52:1: error: expected unqualified-id before numeric constant
+ 5432111122111123321111221111234
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:50:41 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+21:01:47 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:02:07 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:06:13 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:08:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+21:16:11 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:41:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:37:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:47:21 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:42:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:38:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:47:30 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:42:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:38:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:48:31 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:42:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:38:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:48:47 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:42:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:38:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+21:51:59 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:42:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:38:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+21:53:16 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:42:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:38:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:55:38 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:42:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:56:03 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:42:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:56:23 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:42:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+21:57:13 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:46:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:42:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:58:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:59:03 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:01:20 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:02:18 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:03:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:03:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:04:25 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:07:26 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:08:48 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:11:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:13:40 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:14:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+22:22:43 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:51:8: warning: unused variable 'm' [-Wunused-variable]
+  int n,m;
+        ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+22:24:55 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+22:25:07 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+22:25:27 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+..\src\sphere.cpp:63:7: warning: unused variable 'c' [-Wunused-variable]
+   int c;
+       ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+22:26:23 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:55:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < len.size();i++){
+                 ~~^~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+00:42:47 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+00:46:34 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+00:54:47 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+00:55:11 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+00:56:20 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+01:02:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:53:12: warning: right operand of comma operator has no effect [-Wunused-value]
+  cin >> a,b;
+            ^
+..\src\sphere.cpp:54:2: warning: 'b' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(b!=0){
+  ^~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:03:46 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+01:08:57 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:53:2: warning: 'N' is used uninitialized in this function [-Wuninitialized]
+  if(N>A){
+  ^~
+..\src\sphere.cpp:53:2: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+..\src\sphere.cpp:54:17: warning: 'X' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << N*(100-X)/100;
+             ~~~~^~~
+..\src\sphere.cpp:55:3: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+  }if(N>B){
+   ^~
+..\src\sphere.cpp:56:17: warning: 'Y' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << N*(100-Y)/100;
+             ~~~~^~~
+..\src\sphere.cpp:60:2: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+  if(b!=0){
+  ^~
+..\src\sphere.cpp:61:13: warning: 'a' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << a/b;
+             ^
+g++ -o sphere.exe "src\\sphere.o" 
+01:09:12 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:58:6: warning: unused variable 'a' [-Wunused-variable]
+  int a,b;
+      ^
+..\src\sphere.cpp:53:2: warning: 'N' is used uninitialized in this function [-Wuninitialized]
+  if(N>A){
+  ^~
+..\src\sphere.cpp:53:2: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+..\src\sphere.cpp:54:17: warning: 'X' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << N*(100-X)/100;
+             ~~~~^~~
+..\src\sphere.cpp:55:3: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+  }if(N>B){
+   ^~
+..\src\sphere.cpp:56:17: warning: 'Y' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << N*(100-Y)/100;
+             ~~~~^~~
+g++ -o sphere.exe "src\\sphere.o" 
+01:09:33 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:59:6: warning: unused variable 'a' [-Wunused-variable]
+  int a,b;
+      ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:10:46 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:61:6: warning: unused variable 'a' [-Wunused-variable]
+  int a,b;
+      ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:12:01 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:61:6: warning: unused variable 'a' [-Wunused-variable]
+  int a,b;
+      ^
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+01:14:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:61:6: warning: unused variable 'a' [-Wunused-variable]
+  int a,b;
+      ^
+g++ -o sphere.exe "src\\sphere.o" 
+01:16:03 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+01:20:32 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:24:45 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:9:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < a.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:25:18 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:9:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < a.size();i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:41:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+01:42:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+01:42:54 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:52:12 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+01:53:52 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+01:55:38 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+01:58:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:26:39 **** Rebuild of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+21:27:56 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:35:41 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:36:16 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:36:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:36:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:36:59 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:45:38 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:40:15: error: 'b' was not declared in this scope
+  printf("%d", b[0]);
+               ^
+21:45:48 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:48:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:48:40 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:48:56 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:49:07 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+22:30:42 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:8:20: error: 'unsigne' does not name a type; did you mean 'unsigned'?
+  using chunktype = unsigne char; // размер chunk = 1 байт
+                    ^~~~~~~
+                    unsigned
+..\src\sphere.cpp:9:31: error: non-static data member 'CHUNKSIZE' declared 'constexpr'
+  constexpr size_t CHUNKSIZE = 8;
+                               ^
+..\src\sphere.cpp:40:2: error: 'chunktype' does not name a type
+  chunktype *body;
+  ^~~~~~~~~
+..\src\sphere.cpp: In constructor 'myset::myset(size_t)':
+..\src\sphere.cpp:12:3: error: 'body' was not declared in this scope
+   body = new chunktype[chunks];
+   ^~~~
+..\src\sphere.cpp:12:3: note: suggested alternative: 'bool'
+   body = new chunktype[chunks];
+   ^~~~
+   bool
+..\src\sphere.cpp:12:14: error: 'chunktype' does not name a type
+   body = new chunktype[chunks];
+              ^~~~~~~~~
+..\src\sphere.cpp: In member function 'void myset::insert(size_t)':
+..\src\sphere.cpp:27:3: error: 'body' was not declared in this scope
+   body[elem] = true;
+   ^~~~
+..\src\sphere.cpp:27:3: note: suggested alternative: 'bool'
+   body[elem] = true;
+   ^~~~
+   bool
+..\src\sphere.cpp: In member function 'void myset::erase(size_t)':
+..\src\sphere.cpp:32:3: error: 'body' was not declared in this scope
+   body[elem] = false;
+   ^~~~
+..\src\sphere.cpp:32:3: note: suggested alternative: 'bool'
+   body[elem] = false;
+   ^~~~
+   bool
+..\src\sphere.cpp: In member function 'bool myset::in(size_t)':
+..\src\sphere.cpp:37:50: error: 'body' was not declared in this scope
+   return (elem < 0 || elem >= setsize) ? false : body[elem];
+                                                  ^~~~
+..\src\sphere.cpp:37:50: note: suggested alternative: 'bool'
+   return (elem < 0 || elem >= setsize) ? false : body[elem];
+                                                  ^~~~
+                                                  bool
+22:31:08 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp:9:31: error: non-static data member 'CHUNKSIZE' declared 'constexpr'
+  constexpr size_t CHUNKSIZE = 8;
+                               ^
+22:31:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+22:31:49 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+22:40:51 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+22:47:03 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+22:47:45 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+22:47:50 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+22:49:07 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:26:41 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:27:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:28:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:30:25 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:31:26 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:31:43 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:47:18: warning: left shift count >= width of type [-Wshift-count-overflow]
+  printf("%d", 1<<64);
+                  ^~
+g++ -o sphere.exe "src\\sphere.o" 
+23:31:55 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:47:18: warning: left shift count >= width of type [-Wshift-count-overflow]
+  printf("%d", 1<<63);
+                  ^~
+g++ -o sphere.exe "src\\sphere.o" 
+23:32:05 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:47:18: warning: left shift count >= width of type [-Wshift-count-overflow]
+  printf("%d", 1<<62);
+                  ^~
+g++ -o sphere.exe "src\\sphere.o" 
+23:33:49 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:47:19: warning: left shift count >= width of type [-Wshift-count-overflow]
+  printf("%ll", 1<<62);
+                   ^~
+..\src\sphere.cpp:47:9: warning: conversion lacks type at end of format [-Wformat=]
+  printf("%ll", 1<<62);
+         ^~~~~
+..\src\sphere.cpp:47:9: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o sphere.exe "src\\sphere.o" 
+23:34:10 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:47:18: warning: left shift count >= width of type [-Wshift-count-overflow]
+  printf("%d", 1<<62);
+                  ^~
+g++ -o sphere.exe "src\\sphere.o" 
+23:34:20 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:34:35 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:34:44 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:47:18: warning: left shift count >= width of type [-Wshift-count-overflow]
+  printf("%u", 1<<32);
+                  ^~
+g++ -o sphere.exe "src\\sphere.o" 
+23:35:25 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:35:33 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:37:09 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l<<31);
+         ^~~~  ~~~~~
+..\src\sphere.cpp:48:8: warning: 'l' is used uninitialized in this function [-Wuninitialized]
+  printf("%u", l<<31);
+  ~~~~~~^~~~~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+23:37:30 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("%u", sizeof(l));
+         ^~~~
+g++ -o sphere.exe "src\\sphere.o" 
+23:38:29 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:15: error: expected primary-expression before ')' token
+  printf("%u", );
+               ^
+..\src\sphere.cpp:47:9: warning: unused variable 'l' [-Wunused-variable]
+  size_t l = 1 << 1;
+         ^
+23:38:37 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l );
+         ^~~~  ~
+g++ -o sphere.exe "src\\sphere.o" 
+23:38:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l );
+         ^~~~  ~
+g++ -o sphere.exe "src\\sphere.o" 
+23:39:00 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l );
+         ^~~~  ~
+g++ -o sphere.exe "src\\sphere.o" 
+23:39:13 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l );
+         ^~~~  ~
+g++ -o sphere.exe "src\\sphere.o" 
+23:39:24 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:47:18: warning: left shift count >= width of type [-Wshift-count-overflow]
+  size_t l = 1 << 32;
+                  ^~
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l );
+         ^~~~  ~
+g++ -o sphere.exe "src\\sphere.o" 
+23:39:31 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l );
+         ^~~~  ~
+g++ -o sphere.exe "src\\sphere.o" 
+20:21:28 **** Rebuild of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:48:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("%u", l );
+         ^~~~  ~
+g++ -o sphere.exe "src\\sphere.o" 
+20:48:53 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:16:11: error: invalid operands of types 'int' and 'const char [2]' to binary 'operator<<'
+   i.first << " " << i.second << endl;
+   ~~~~~~~~^~~~~~
+20:49:08 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+21:04:20 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:17:20: error: no match for 'operator>=' (operand types are 'int' and '__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> >, std::pair<int, int> >::value_type' {aka 'std::pair<int, int>'})
+   if(m[i+1].second >= m[i]){
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:64,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:474:5: note: candidate: 'template<class _T1, class _T2> constexpr bool std::operator>=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)'
+     operator>=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:474:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::pair<_T1, _T2>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:67,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:329:5: note: candidate: 'template<class _Iterator> bool std::operator>=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)'
+     operator>=(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:329:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:67,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:367:5: note: candidate: 'template<class _IteratorL, class _IteratorR> bool std::operator>=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)'
+     operator>=(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:367:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:67,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:1172:5: note: candidate: 'template<class _IteratorL, class _IteratorR> bool std::operator>=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)'
+     operator>=(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:1172:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::move_iterator<_IteratorL>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:67,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:1178:5: note: candidate: 'template<class _Iterator> bool std::operator>=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)'
+     operator>=(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:1178:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::move_iterator<_IteratorL>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6208:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> bool std::operator>=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator>=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6208:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6221:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> bool std::operator>=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)'
+     operator>=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6221:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\src\sphere.cpp:1:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6233:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> bool std::operator>=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator>=(const _CharT* __lhs,
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6233:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const _CharT*' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+In file included from C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector:64,
+                 from ..\src\sphere.cpp:2:
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:1790:5: note: candidate: 'template<class _Tp, class _Alloc> bool std::operator>=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)'
+     operator>=(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+C:/dev/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:1790:5: note:   template argument deduction/substitution failed:
+..\src\sphere.cpp:17:26: note:   mismatched types 'const std::vector<_Tp, _Alloc>' and 'int'
+   if(m[i+1].second >= m[i]){
+                          ^
+21:04:31 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:05:01 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:07:14 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:08:51 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:09:30 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+21:23:34 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:23:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : m){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:24:25 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:23:11: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  for(auto i : m){
+           ^
+g++ -o sphere.exe "src\\sphere.o" 
+21:28:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+21:31:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:33:56 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+21:38:58 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:20:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < m.size(); i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+21:41:36 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:20:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < m.size(); i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+21:44:30 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:20:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < m.size(); i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+21:44:54 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:20:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < m.size(); i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+21:52:04 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:20:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < m.size(); i++){
+                 ~~^~~~~~~~~~
+..\src\sphere.cpp:27:31: error: 'struct std::pair<int, int>' has no member named 'seconf'; did you mean 'second'?
+   cout << i.first  << " "<< i.seconf << endl;
+                               ^~~~~~
+                               second
+21:52:12 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:20:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < m.size(); i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+21:53:17 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:20:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, int> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  for(int i = 1; i < m.size(); i++){
+                 ~~^~~~~~~~~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+21:54:34 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+23:30:00 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:6: warning: unused variable 'res' [-Wunused-variable]
+  int res = 0;
+      ^~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+Info: Nothing to build for sphere
+23:35:01 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:6: warning: unused variable 'res' [-Wunused-variable]
+  int res = 0;
+      ^~~
+g++ -o sphere.exe "src\\sphere.o" 
+23:37:06 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:6: warning: unused variable 'res' [-Wunused-variable]
+  int res = 0;
+      ^~~
+g++ -o sphere.exe "src\\sphere.o" 
+23:37:39 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+..\src\sphere.cpp: In function 'int main()':
+..\src\sphere.cpp:12:6: warning: unused variable 'res' [-Wunused-variable]
+  int res = 0;
+      ^~~
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere
+23:54:42 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+23:55:25 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+00:07:40 **** Incremental Build of configuration Debug for project sphere ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sphere.o" "..\\src\\sphere.cpp" 
+g++ -o sphere.exe "src\\sphere.o" 
+Info: Nothing to build for sphere

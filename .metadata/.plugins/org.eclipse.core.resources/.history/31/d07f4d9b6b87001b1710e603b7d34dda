@@ -1,0 +1,62 @@
+#include <iostream>
+#include<vector>
+#include<string>
+#include<algorithm>
+#include <cmath>
+using namespace std;
+
+
+string rec(int n){
+	if(n==1){
+		return "1";
+	}else{
+		string s = rec(n-1);
+		string r = s;
+		reverse(r.begin(), r.end());
+		return to_string(n) + s+r;
+	}
+}
+
+
+int rec_v(int n, int index, vector<int> len){
+	if(n==1){
+		return 1;
+	}else{
+		if(index == 1 && n/10<1){
+			return n;
+		}else if(index == 1 && n/10 >= 1){
+			return n/10;
+		}else if(index == 2 && n/10 >= 1){
+			return n%10;
+		}
+		if( n/10>=1){
+			int ind = (index - 2) % (len[n-2]+1);
+					if(index > len[n-2]+2){
+						ind = len[n-2]+1 - (index-1)%(len[n-2]+1);
+					}
+					//cout << ind<< endl;
+					return rec_v(n-1, ind, len);
+
+		}
+
+		int ind = (index - 1) % (len[n-2]+1);
+		if(index > len[n-2]+1){
+			ind = len[n-2]+1 - index%(len[n-2]+1);
+		}
+		//cout << ind<< endl;
+		return rec_v(n-1, ind, len);
+	}
+}
+
+int main() {
+	double a,b,c;
+	cin >> a>>b>>c;
+	if(a==0 && b!=0){
+		cout << -c/b;
+	}else if((b*b-4*a*c)>=0 && a!= 0){
+		cout << (-b+sqrt((b*b-4*a*c)))/(2*a);
+		cout<< " " << (-b-sqrt((b*b-4*a*c)))/(2*a);
+	}
+
+}
+
